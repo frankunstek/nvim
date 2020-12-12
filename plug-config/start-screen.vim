@@ -28,6 +28,7 @@ let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'b': '~/.bashrc' },
             \ '~/repositories',
+            \ '~/.config/nvim/plug-config/start-screen.vim',
             \ ]
 
 let g:startify_enable_special = 0
