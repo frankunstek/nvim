@@ -7,6 +7,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+    
+    " monokai theme
+    Plug 'crusoexia/vim-monokai'
 
     " Better Comments
     Plug 'tpope/vim-commentary'
