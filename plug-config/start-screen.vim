@@ -25,8 +25,10 @@ function! StartifyEntryFormat()
 
 let g:startify_bookmarks = [
             \ { 'c': '~/.config/awesome/rc.lua' },
-            \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'b': '~/.bashrc' },
+            \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 't': '~/.config/termite/config' },
+            \ '~/.config/qutebrowser/config.py',
             \ '~/repositories',
             \ '~/.config/nvim/plug-config/start-screen.vim',
             \ ]
